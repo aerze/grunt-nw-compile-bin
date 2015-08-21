@@ -1,0 +1,42 @@
+{
+  "name": "grunt-nw-compile-bin",
+  "description": "Compile node-webkit into executable binaries for different platforms.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/aerze/grunt-nw-compile-bin",
+  "author": {
+    "name": "Gus",
+    "email": "gus@mythril.co",
+    "url": "mythril.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aerze/grunt-nw-compile-bin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aerze/grunt-nw-compile-bin/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/aerze/grunt-nw-compile-bin/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
